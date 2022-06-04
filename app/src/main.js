@@ -23,3 +23,6 @@ new Vue({
   // 注册仓库：组件实例对象身上会多一个属性$store属性
   store,
 }).$mount('#app')
+
+console.log(router);
+

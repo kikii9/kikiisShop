@@ -12,6 +12,6 @@ import home from './home'
 import search from './search'
 export default new Vuex.Store({
     module:{
-        home,search
+        // home,search
     }
 })

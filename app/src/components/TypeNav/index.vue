@@ -1697,11 +1697,11 @@ export default {
     name:'TypeNav',
     // 完成动态展示三级联动数据
     mounted(){
-        this.$store.dispatch('catagorylist')
+        // this.$store.dispatch('catagorylist')
     }
 }
 </script>
-
+  
 <style scoped lang="less">
     .type-nav {
         border-bottom: 2px solid #e1251b;

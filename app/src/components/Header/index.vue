@@ -53,6 +53,8 @@ export default {
     methods: {
         // 搜索按钮的回调函数：向search路由进行跳转
         goSearch() {
+              console.log("---------")
+              console.log(this.$router)
             // 路由传递参数：
             // 第一种方法：字符串形式
             // this.$router.push("/search/" + this.keyword + "?k=" + this.keyword.toUpperCase());
